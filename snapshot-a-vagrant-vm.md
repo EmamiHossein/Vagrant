@@ -33,7 +33,7 @@ This command creates a file named `rocky9-template.box` in your current director
 ### 3. Add the box to Vagrant's local box list
 
 ```bash
-vagrant box add --name rocky9-template ./rocky9-template.box
+vagrant box add --name rocky9-template rocky9-template.box
 ```
 
 This adds the box under the name `rocky9-template` so you can use it in other projects.
